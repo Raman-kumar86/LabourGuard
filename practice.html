@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="text-3xl font-bold text-center mb-8">
+        <h1>Tailwind css Box Model Example</h1>
+        
+        </div>
+    <section class="mb-12">
+        <h2 class="text-2xl font-semibold mb-4">Unordered List</h2>
+        <ul class="list-disc pl-6 text-gray-800">
+            <li class="mb-2">Item One</li>
+            <li class="mb2">Item Two</li>
+            <li class="mb-2">Item Three</li>
+            <li>Item Four</li>
+        </ul>
+    </section>
+    <section class="mb-12">
+        <h2 class="text-2xl font-semibold mb-4">Ordered List</h2>
+        <ol class="list-decimal pl-6 text-gray-800">
+            <li class="mb-2">First Step</li>
+            <li class="mb-2">Seconde Step</li>
+            <li class="mb-3">Third Step</li>
+        </ol>
+    </section>
+    <section>
+        <h2 class="text-2xl font-semibold mb-4">Custom List Style</h2>
+        <ul class="list-none text-gray-800">
+            <li class="mb-2 flex items-center">
+                <span class="inline-block w-4 h-4 bg-blue-500 rounded-full mr-2"></span>
+                Custom Item One
+            </li>
+            <li class="mb-2 flex items-center">
+                <span class="inline-block w-4 h-4 bg-green-500 rounded-full mr-2"></span>
+                Custom Item Two
+            </li>
+            <li class="mb-2 flex items-center">
+                <span class="inline-block w-4 h-4 bg-red-500  mr-2 hexagon"></span>
+                Custom Item Two
+            </li>
+        </ul>
+        <ul class="list-image-[url(op.jpg)]">
+            <li>5 cups chopped Porcini mushrooms</li>
+            <li>uswi</li>
+            <li>khsab</li>
+        </ul>
+        <!-- <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Headings</h2>
+            <h2 class="text-4xl font-extrabold mb-2">Headings 1</h2>
+            <h2 class="text-3xl"
+        </section> -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Paragraphs</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus sed omnis soluta quisquam perferendis iusto voluptatum fuga quo, voluptas dolorem!
+            </p>
+            <p class="text-lg text-gray-600 leading-loose mb-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque sed dolore soluta nobis cumque. At fugit hic nostrum, tenetur exercitationem velit officiis iure. Delectus, voluptate!
+            </p>
+            <p class="text-sm text-gray-500">
+                This is a smaller paragraph with muted text color.
+            </p>
+        </section>
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Blockquote</h2>
+            <blockquote class="border-l-4 border-blue-500 pl-4 italic text-gray-600">"Tailwind CSS makes styling effortless and highly customizable."</blockquote>
+        </section>
+        <section >
+            <h2 class="text-2xl font-bold mb-4">Inline Text Styles</h2>
+            <p>
+                You can style text with <span class="font-bold">Bold</span>,<span class="italic"> Italic</span>,
+                <span class="underline"> underline</span>, and <span class="line-through">Line-through</span> utilities. You can also change
+                <span class="text-blue-500">text color</span> and <span class="bg-yellow-200">background color</span>
+            </p>
+        </section>
+    </section>
+    <style>
+        .hexagon {
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+    </style>
+    
+</body>
+</html>

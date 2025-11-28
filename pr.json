@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Wireless Mouse",
+      "price": 20
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "price": 25
+    },
+    {
+      "name": "USB-C Charger",
+      "price": 35
+    },
+    {
+        "name":"Sony Headphone",
+        "price":60
+    },
+    {
+        "name":"iuytr",
+        "price":50
+    }
+  ]
+  
